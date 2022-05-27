@@ -51,3 +51,86 @@ table {
 ----------------------------------------------------------------------------------------------------------------
 */
 
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper header {
+  display: flex;
+  row-gap: 14px;
+  column-gap: 200px;
+  flex-wrap: wrap;
+  background-color: #3C3A39;
+  padding: 13px 12px;
+  color: #FFFFFF;
+}
+
+.group-bar {
+  padding-left: 25px;
+}
+
+#logo {
+  padding: 10px 12px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.wrapper header > nav {
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.fa-bars {
+  width: 18px;
+  height: 12px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  background: #1C1A19 url(imgs/illustration-header-mobile.png) 230px 230px no-repeat;
+}
+
+.headline > h1 {
+  padding-bottom: 12px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+.headline > h3 {
+  padding-bottom: 12px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFF5E1;
+}
+
+.headline > p {
+  margin-bottom: 12px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  height: 40px;
+  color: #DBD8D7;
+}
