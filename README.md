@@ -40,7 +40,7 @@ Linters
 
 ## Authors
 
-👤 **Author1**
+👤 **Faruq Hammed**
 
 - GitHub: [@githubhandle](https://github.com/mansa-susa)
 - Twitter: [@twitterhandle](https://twitter.com/mansa_susa)
