@@ -254,7 +254,7 @@ body {
   margin: 0 151px 120px 24px;
 }
 
-.socials li a {
+.socials li a {q
   color: #dbd8d7;
 }
 
@@ -450,4 +450,73 @@ button:disabled {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.about-me {
+  background: #1C1A19 url('imgs/about-me-bg.png') 215.35px 384.35px no-repeat;
+}
+
+.about-me > h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+  width: 327px;
+  height: 79px;
+  padding: 120px 24px 24px;
+}
+
+.about-me > p {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  padding: 24px 24px;
+}
+
+.about-me > button {
+  width: 161px;
+  height: 48px;
+  margin: 0 190px 200px 24px;
+}
+
+.about-me > hr {
+  width: 327px;
+  border: 1px solid #ffffff;
+}
+
+.lfs {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 120px 51.7px;
+}
+
+.outer li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+   margin-bottom: 36px;
+}
+
+.inner li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 32px;
 }
