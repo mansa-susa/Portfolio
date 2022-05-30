@@ -138,53 +138,78 @@ table {
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
 */
+body {
+  width: 375px;
+  box-sizing: border-box;
+}
+
 .wrapper {
   margin: 0 auto;
+  width: 375px;
 }
 
-.wrapper header {
+.wrapper > header {
   display: flex;
-  row-gap: 14px;
-  column-gap: 200px;
-  flex-wrap: wrap;
+  flex-direction: column;
   background-color: #3c3a39;
-  padding: 13px 12px;
   color: #fff;
+  width: 375px;
+  height: 92px;
+  padding-bottom: 12px;
 }
 
-.group-bar {
-  padding-left: 25px;
+.notification-bar {
+  width: 375px;
+  height: 44px;
+  display: flex;
 }
 
-#logo {
-  padding: 10px 12px;
+#time-bar {
+  width: 54px;
+  height: 21px;
+  margin: 16px 218.67px 12px 21px;
+}
+
+#group-bar {
+  margin: 17.33px 14.67px 15.33px 0;
+  width: 66.66px;
+  height: 11.34px;
+}
+
+.tool-bar {
+  width: 375px;
+  height: 48px;
+  display: flex;
+}
+
+.tool-bar > #logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  padding: 10px 12px;
+  width: 101px;
+  height: 44px;
+  margin: 2px 186px 2px 12px;
 }
 
-.wrapper header > nav {
-  margin-left: auto;
-  margin-top: 10px;
-  margin-right: 10px;
+.tool-bar > nav {
+  width: 24px;
+  height: 24px;
+  margin: 12px 24px 12px 0;
 }
 
-.fa-bars {
-  width: 18px;
-  height: 12px;
-}
-
-.headline {
+.headline-section {
   display: flex;
   flex-direction: column;
-  padding: 120px 24px;
-  background: #1c1a19 url(imgs/illustration-header-mobile.png) 230px 230px no-repeat;
+  gap: 12px;
+  background: #1c1a19 url('imgs/illustration-header-mobile.png') 228px 225px no-repeat;
+  width: 375px;
+  height: 590px;
 }
 
-.headline > h1 {
-  padding-bottom: 12px;
+.headline-section > h1 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -192,26 +217,33 @@ table {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  width: 327px;
+  height: 124px;
+  margin: 120px 24px 0;
 }
 
-.headline > h3 {
-  padding-bottom: 12px;
+.headline-section> h3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   color: #fff5e1;
+  width: 327px;
+  height: 27px;
+  margin: 0 24px;
 }
 
-.headline > p {
-  margin-bottom: 12px;
+.headline-section > p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  width: 327px;
+  height: 123px;
+  margin: 0 24px;
 }
 
 .socials {
@@ -219,5 +251,203 @@ table {
   justify-content: space-around;
   width: 200px;
   height: 40px;
+  margin: 0 151px 120px 24px;
+}
+
+.socials li a {
   color: #dbd8d7;
+}
+
+.work-section {
+  background-color: #ffffff;
+  padding: 120px 24px;
+  display: grid;
+  row-gap: 24px;
+  grid-template-areas: 'recent-works'
+                       'multi-post'
+                       'professional-art-1'
+                       'professional-art-2'
+                       'professional-art-3'
+                       'professional-art-4'
+                       'professional-art-5'
+                       'professional-art-6';
+}
+
+.recent-works {
+  grid-area: recent-works;
+  display: flex;
+  flex-direction: column;
+  /* column-gap: 24px; */
+
+}
+
+.recent-works > h1 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1C1A19;
+  padding: 10px 0 11px;
+  margin-bottom: 24px;
+  width: 327px;
+  height: 83px;
+}
+
+.recent-works > hr {
+  border: -0.5px solid #212121;
+  width:  327px;
+  margin-bottom: 80px;
+}
+
+.img-placeholder {
+  width: 327px;
+  height: 237px;
+  background-image: url('imgs/img-placeholder.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.multi-post {
+  grid-area: multi-post;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.multi-post > h2 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091E42;
+  width: 327px;
+  height: 36px;
+}
+
+.multi-post p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 327px;
+  height: 147px;
+} 
+
+.multi-post > ul {
+  display: flex;
+  gap: 12px;
+  width: 297px;
+  height: 40px;
+}
+
+.multi-post > ul > li {
+  padding: 10px 12px;
+  border: 1px solid #8993A4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091E42;
+}
+
+button {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+}
+button:enabled {
+  color: #FFFFFF;
+  background-color: #F55800;
+}
+
+button:hover { 
+  background-color: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
+button:active {
+  color: #F4F1F0;
+  background-color: #E05304;
+}
+
+button:disabled {
+  color: #5B5957;
+  background-color: #F4F1F0;
+}
+
+.multi-post > button {
+  width: 124px;
+  height: 48px;
+}
+
+[class*=professional-art] {
+  padding: 84px 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-image: url('imgs/card-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 327px;
+  height: 386px;
+  position: relative;
+}
+
+[class*=professional-art] > h2 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  width: 295px;
+  height: 81px;
+}
+
+[class*=professional-art] > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 295px;
+  height: 87px;
+}
+
+[class*=professional-art]  > ul {
+  display: flex;
+  gap: 12px;
+  width: 61px;
+  height: 40px;
+}
+
+[class*=professional-art]  > ul > li {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+[class*=professional-art] > button {
+  width: 359px;
+  height: 48px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
