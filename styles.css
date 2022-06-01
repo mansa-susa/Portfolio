@@ -207,7 +207,7 @@ table {
   height: 590px;
 }
 
-.headline-section > h1 {
+.headline-section > h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -278,7 +278,7 @@ table {
   flex-direction: column;
 }
 
-.recent-works > h1 {
+.recent-works > h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -423,7 +423,7 @@ button:disabled {
   position: relative;
 }
 
-[class*=professional-art] > h2 {
+[class*=professional-art] > h3 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -476,7 +476,7 @@ button:disabled {
   background: #1c1a19 url('imgs/about-me-bg.png') 215.35px 384.35px no-repeat;
 }
 
-.about-me > h1 {
+.about-me > h2 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -517,4 +517,63 @@ button:disabled {
   justify-content: center;
   align-items: center;
   padding: 120px 51.7px;
+}
+
+.contact-section {
+  padding: 120px 24px;
+}
+
+.contact-section > p {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  margin-bottom: 58px;
+}
+
+.contact-section > form > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  position: relative;
+}
+
+.contact-section > form > ul button {
+  width: 131px;
+  height: 48px;
+}
+
+footer {
+  width: 375px;
+  height: 72px;
+  border-top: 4px solid #dfe1e6;
+  padding: 15px 87px 8px 88px;
+  position: relative;
+}
+
+footer > .socials{
+  margin:initial;
+}
+
+footer > .socials a {
+  color: #505F79;
+}
+
+#shape {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: 120px;
+  bottom: 8px;
+  background: #0D151E;
+  border-radius: 10px;
 }
