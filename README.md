@@ -11,7 +11,7 @@ This project is to set up a mobile version skeleton of my portfolio. The goal is
 - Css
 - Flexbox Module
 ## Live Demo
-- https://mansa-susa.github.io/microverse_hello/
+-https://mansa-susa.github.io/Portfolio/
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
