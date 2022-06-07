@@ -1,7 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/**
+ * /* http://meyerweb.com/eric/tools/css/reset/
+ *    v2.0 | 20110126
+ *    License: none (public domain)
+ *
+ * @format
+ */
 
 html,
 body,
@@ -125,7 +128,7 @@ blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -134,8 +137,8 @@ table {
   border-spacing: 0;
 }
 
-*{
-   box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 /*
@@ -165,7 +168,7 @@ table {
 }
 
 #logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -196,13 +199,14 @@ table {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: #1c1a19 url('imgs/illustration-header-mobile.png') 228px 225px no-repeat;
+  background: #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px
+    no-repeat;
   width: 375px;
   height: 590px;
 }
 
 .headline-section > h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -215,7 +219,7 @@ table {
 }
 
 .headline-section > h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -227,7 +231,7 @@ table {
 }
 
 .headline-section > p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -256,14 +260,14 @@ table {
   display: grid;
   row-gap: 24px;
   grid-template-areas:
-    'recent-works'
-    'multi-post'
-    'professional-art-1'
-    'professional-art-2'
-    'professional-art-3'
-    'professional-art-4'
-    'professional-art-5'
-    'professional-art-6';
+    "recent-works"
+    "multi-post"
+    "professional-art-1"
+    "professional-art-2"
+    "professional-art-3"
+    "professional-art-4"
+    "professional-art-5"
+    "professional-art-6";
 }
 
 .recent-works {
@@ -273,7 +277,7 @@ table {
 }
 
 .recent-works > h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -294,7 +298,7 @@ table {
 .img-placeholder {
   width: 327px;
   height: 237px;
-  background-image: url('imgs/img-placeholder.png');
+  background-image: url("imgs/img-placeholder.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -307,7 +311,7 @@ table {
 }
 
 .multi-post > h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -318,7 +322,7 @@ table {
 }
 
 .multi-post p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -333,7 +337,7 @@ table {
 }
 
 .outer li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -344,7 +348,7 @@ table {
 }
 
 .inner li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -357,7 +361,7 @@ table {
 .multi-post > ul > li {
   padding: 10px 12px;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -369,7 +373,7 @@ table {
 
 button {
   display: block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -404,12 +408,12 @@ button:disabled {
   height: 48px;
 }
 
-[class*=cards] {
+[class*="cards"] {
   padding: 84px 16px 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-image: url('imgs/card-bg.png');
+  background-image: url("imgs/card-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 327px;
@@ -417,8 +421,8 @@ button:disabled {
   position: relative;
 }
 
-[class*=cards] > h3 {
-  font-family: 'Crete Round', serif;
+[class*="cards"] > h3 {
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -428,8 +432,8 @@ button:disabled {
   height: 81px;
 }
 
-[class*=cards] > p {
-  font-family: 'Inter', sans-serif;
+[class*="cards"] > p {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -439,25 +443,25 @@ button:disabled {
   height: 87px;
 }
 
-[class*=cards] > ul {
+[class*="cards"] > ul {
   display: flex;
   gap: 12px;
   width: 61px;
   height: 40px;
 }
 
-[class*=cards] > ul > li {
+[class*="cards"] > ul > li {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
 
-[class*=cards] > button {
+[class*="cards"] > button {
   width: 327px;
   height: 48px;
   margin-top: 10px;
@@ -467,13 +471,13 @@ button:disabled {
 }
 
 .about-me {
-  background: #1c1a19 url('imgs/about-me-bg.png') 215.35px 384.35px no-repeat;
+  background: #1c1a19 url("imgs/about-me-bg.png") 215.35px 384.35px no-repeat;
   width: 375px;
   padding: 120px 24px 24px;
 }
 
 .about-me > h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -487,7 +491,7 @@ button:disabled {
 .about-me > p {
   width: 327px;
   height: 148px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -521,22 +525,22 @@ button:disabled {
 .contact-section > p {
   width: 327px;
   height: 216px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 58px;
 }
 
-.contact-section > form > ul {
+.contact-section > form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 24px;
+  padding: 0;
+  column-gap: 24px;
   width: 327px;
   height: 330px;
   position: relative;
@@ -544,13 +548,44 @@ button:disabled {
 
 .contact-section > form > ul > li {
   width: 327px;
+<<<<<<< HEAD
   height: 48px;
   margin-bottom: 24px;
 }
 
 .contact-section > form > ul button {
   width: 131px;
+=======
+>>>>>>> d4438628d71f6168f87bdf1798e3e498029e1e1b
   height: 48px;
+  margin-bottom: 24px;
+}
+
+#full-name {
+  border: none;
+  width: inherit;
+  height: inherit;
+  border-bottom: 1px solid gray;
+}
+
+#email {
+  border: none;
+  border-bottom: 1px solid gray;
+  width: inherit;
+  height: inherit;
+}
+
+#message {
+  width: inherit;
+  height: 114px;
+  background-color: #fbf8f7;
+  border: none;
+  padding: 12px;
+}
+
+.btn {
+  text-align: center;
+  
 }
 
 footer {
@@ -561,12 +596,12 @@ footer {
   position: relative;
 }
 
-footer > .socials{
-  margin:initial;
+footer > .socials {
+  margin: initial;
 }
 
 footer > .socials a {
-  color: #505F79;
+  color: #505f79;
 }
 
 #shape {
@@ -575,11 +610,11 @@ footer > .socials a {
   height: 5px;
   left: 120px;
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
 
-/*---------------------------------------------------/*------------desktop_version-------------------------*/
+/*---------------------------------------------------/*------------desktop_version-------------------------
 
 @media screen and (min-width: 768px) {
 
@@ -827,6 +862,16 @@ ul.inner {
   display: flex;
 }
 
+.contact-form {
+  text-align: center;
+  padding-bottom: 73px;
+}
+
+.form-ul li input {
+   border: none;
+   border-bottom: 1px solid gray;
+}
+
 .contact-section > p {
   width: 455px;
   height: 256px;
@@ -837,6 +882,8 @@ ul.inner {
   line-height: 52px;
   color: #262626;
 }
+
+
 
 .contact-section > form > ul {
   padding: 0px;
@@ -856,4 +903,4 @@ footer {
 }
 
 
-}
+}*/
