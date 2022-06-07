@@ -531,21 +531,17 @@ button:disabled {
   margin-bottom: 58px;
 }
 
-.contact-section > form > ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 327px;
-  height: 330px;
-  position: relative;
+.contact-form {
+  padding-top: 73px;
+  text-align: center;
 }
 
 .contact-section > form > ul button {
   width: 131px;
   height: 48px;
 }
+
+
 
 footer {
   width: 375px;
@@ -573,7 +569,7 @@ footer > .socials a {
   border-radius: 10px;
 }
 
-/*---------------------------------------------------/*------------desktop_version-------------------------*/
+/*---------------------------------------------------/*------------desktop_version-------------------------
 
 @media screen and (min-width: 768px) {
 
@@ -821,6 +817,16 @@ ul.inner {
   display: flex;
 }
 
+.contact-form {
+  text-align: center;
+  padding-bottom: 73px;
+}
+
+.form-ul li input {
+   border: none;
+   border-bottom: 1px solid gray;
+}
+
 .contact-section > p {
   width: 455px;
   height: 256px;
@@ -831,6 +837,8 @@ ul.inner {
   line-height: 52px;
   color: #262626;
 }
+
+
 
 .contact-section > form > ul {
   padding: 0px;
@@ -850,4 +858,4 @@ footer {
 }
 
 
-}
+}*/
