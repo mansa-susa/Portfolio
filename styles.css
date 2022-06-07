@@ -154,7 +154,7 @@ table {
   background-color: #3c3a39;
   color: #fff;
   width: 375px;
-  height: 92px;
+  height: 48px;
   padding-bottom: 12px;
 }
 
@@ -540,6 +540,12 @@ button:disabled {
   width: 327px;
   height: 330px;
   position: relative;
+}
+
+.contact-section > form > ul > li {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 24px;
 }
 
 .contact-section > form > ul button {
