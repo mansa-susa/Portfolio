@@ -199,7 +199,8 @@ table {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px
+  background:
+    #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px
     no-repeat;
   width: 375px;
   height: 590px;
@@ -549,9 +550,8 @@ button:disabled {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-
 }
 
 .contact-section > form > ul > li:nth-child(-n + 2) {
@@ -561,6 +561,7 @@ button:disabled {
   padding: 15px 16px;
   border-bottom: 1px solid gray;
 }
+
 .contact-section > form > ul > li:nth-child(3) {
   width: 327px;
   height: 114px;
@@ -569,7 +570,7 @@ button:disabled {
   background-color: #fbf8f7;
 }
 
-.contact-section > form  button {
+.contact-section > form button {
   width: 131px;
   height: 48px;
 }
@@ -625,7 +626,7 @@ footer > .socials a {
   border-radius: 10px;
 }
 
-/*---------------------------------------------------/*------------desktop_version-------------------------
+/* ---------------------------------------------------/*------------desktop_version-------------------------
 
 @media screen and (min-width: 768px) {
 
@@ -809,14 +810,14 @@ footer > .socials a {
 .card-container {
   display: grid;
   width: 1204px;
-  grid-template-areas: 
+  grid-template-areas:
     'card-1 card-2 card-3'
     'card-4 card-5 card-6';
 }
 
 [class*=cards] {
   width: 369px;
-  height: 435px;  
+  height: 435px;
 
 }
 
@@ -894,8 +895,6 @@ ul.inner {
   color: #262626;
 }
 
-
-
 .contact-section > form > ul {
   padding: 0px;
   gap: 24px;
@@ -913,5 +912,5 @@ footer {
   display: none;
 }
 
-
-}*/
+}
+ */
