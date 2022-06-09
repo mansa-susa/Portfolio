@@ -153,18 +153,11 @@ table {
 
 .wrapper > header {
   display: flex;
-  flex-direction: column;
   background-color: #3c3a39;
   color: #fff;
   width: 375px;
   height: 48px;
   padding-bottom: 12px;
-}
-
-.tool-bar {
-  width: 375px;
-  height: 48px;
-  display: flex;
 }
 
 #logo {
@@ -179,14 +172,14 @@ table {
   margin: 2px 198px 2px 24px;
 }
 
-.tool-bar > nav {
+header > nav {
   width: 40px;
   height: 40px;
   padding: 11px 14px;
   margin: 4px 14px 4px 0;
 }
 
-.fa-bars {
+#hamburger {
   width: 18px;
   height: 12px;
 }
@@ -636,18 +629,7 @@ footer > .socials a {
 .wrapper > header {
   width: 1440px;
   height: 72px;
-  display: block;
-  padding: 0;
-}
-
-.notification-bar {
-  display: none;
-}
-
-.tool-bar {
-  width: 1440px;
-  height: 72px;
-  padding: 16px 151px 16px 142px;
+  padding: 16px 142px;
 }
 
 #logo {
@@ -658,15 +640,15 @@ footer > .socials a {
   line-height: 20px;
 }
 
-.tool-bar > nav {
+header nav {
   width: 307px;
   height: 40px;
-  padding: 10px 12px;
+  padding: 0;
   margin: 0;
   margin-left: auto;
 }
 
-.tool-bar .fa-bars {
+#hamburger {
   display: none;
 }
 
