@@ -282,7 +282,7 @@ header > nav {
 }
 
 .recent-works > hr {
-  border: -0.5px solid #212121;
+  border: 1px solid #212121;
   width: 327px;
   margin-bottom: 80px;
 }
@@ -618,16 +618,19 @@ footer > .socials a {
 }
 
 /* ---------------------------------------------------/*------------desktop_version-------------------------*/
+/* ---------------------------------------------------/*------------desktop_version-------------------------*/
+/* ---------------------------------------------------/*------------desktop_version-------------------------*/
+
 
 @media screen and (min-width: 768px) {
 
 .wrapper {
   margin: 0 auto;
-  width: 1440px;
+  width: 100%;
 }
 
 .wrapper > header {
-  width: 1440px;
+  width: 100%;
   height: 72px;
   padding: 16px 142px;
 }
@@ -671,7 +674,8 @@ header nav {
 .headline-section {
   display: grid;
   grid-template-columns: 142px 566px 732px;
-  width: 1440px;
+  grid-template-rows: 1fr;
+  width: 100%;
   height: 798px;
   background: #1c1a19 url('imgs/illustration-header.png') right top no-repeat;
 }
@@ -682,7 +686,7 @@ header nav {
   width: 566px;
   height: 160px;
   grid-column: 2 / 3;
-  margin: 192px 731px 24px 143px;
+  margin: 192px 731px 24px 0;
 }
 
 .headline-section > h3 {
@@ -697,7 +701,7 @@ header nav {
   display: flex;
   align-items: center;
   color: #fff;
-  margin: 0 731px 24px 143px;
+  margin: 0 731px 24px 0;
 }
 
 .headline-section > p {
@@ -710,35 +714,46 @@ header nav {
   font-size: 20px;
   line-height: 32px;
   color: #F4F5F7;
+  margin: 0 731px 0 0;
 }
 
 .headline-section .socials {
   grid-column: 1 / 2;
+  order: 0;
   flex-direction: column;
-  width: 20px;
-  height: 100px;
+  width: 100px;
+  height: 200px;
   column-gap: 23px;
+  margin: 0px 0px 0px 0px;
 }
 
 .work-section {
   background-color: #fff;
   padding: 5px 118px 0;
-  width: 1440px;
+  width: 100%;
   height: 1805px;
-  display: grid;
-  row-gap: 24px;
-  grid-template-areas:
-    'recent-works recent-works recent-works'
-    'card-container card-container card-container'
-    'card-container card-container card-container';
-  justify-content: center;
+  
 }
 
+.card-container {
+  display: grid;
+  width: 1204px;
+  height: inherit;
+  padding: 130px 25px 23px;
+  margin: 0 auto;
+  grid-template-areas:
+    'recent-works recent-works recent-works'
+    'card-1 card-2 card-3'
+    'card-4 card-5 card-6';
+}
+
+
 .recent-works {
+  display: flex;
   flex-flow: row wrap;
   width: 1204px;
-  padding: 130px 25px 24px 23px;
   column-gap: 24px;
+  grid-area: recent-works;
 }
 
 .recent-works > h2 {
@@ -755,6 +770,8 @@ header nav {
 
 .recent-works > hr {
   width: 794px;
+  margin-top: 30px;
+  height: 0;
 }
 
 .img-placeholder {
@@ -787,25 +804,20 @@ header nav {
   color: #091E42;
 }
 
-.card-container {
-  display: grid;
-  width: 1204px;
-  grid-template-areas:
-    'card-1 card-2 card-3'
-    'card-4 card-5 card-6';
-}
-
 [class*=cards] {
   width: 369px;
   height: 435px;
+}
 
+[class*=cards] button{
+  width: 369px;
 }
 
 .about-me {
-  width: 1440px;
+  width: 100%;
   height: 1195px;
   padding: 120px 142px 142px;
-  background: #1c1a19 url('imgs/illustration-about-me.svg') 854px 99px no-repeat;
+  background: #1c1a19 url('imgs/illustration-about-me.svg') right 99px no-repeat;
 }
 
 .about-me > h2 {
@@ -850,29 +862,22 @@ ul.inner {
 }
 
 .contact-section {
+  width: 100%;
   padding: 130px 142px 154px 135px;
   display: flex;
-}
-
-.contact-form {
-  text-align: center;
-  padding-bottom: 73px;
-}
-
-.form-ul li input {
-   border: none;
-   border-bottom: 1px solid gray;
 }
 
 .contact-section > p {
   width: 455px;
   height: 256px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #262626;
+  margin-right: 24px;
+  text-align: left;
 }
 
 .contact-section > form > ul {
@@ -882,10 +887,53 @@ ul.inner {
   height: 330px;
 }
 
+.contact-section > form > ul > li:nth-child(-n + 2) {
+  width: inherit;
+}
+
+.contact-section > form > ul > li:nth-child(3) {
+width: inherit;
+}
+
+#full-name {
+  border: none;
+  width: inherit;
+  height: 18px;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+#email {
+  border: none;
+  width: inherit;
+  height: 18px;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+#message {
+  width: inherit;
+  height: 114px;
+  border: none;
+  font-family: inherit;
+  font-size: 100%;
+  background-color: inherit;
+}
+
+.contact-section > form button {
+  width: 122px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+}
+
 footer {
-  width: 1440px;
+  width: 100%;
   height: 72px;
   padding: 15px 620px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #shape {
