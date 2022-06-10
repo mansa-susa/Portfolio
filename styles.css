@@ -679,7 +679,15 @@ footer > .socials a {
     background: #1c1a19 url('imgs/illustration-header.png') right top no-repeat;
   }
 
+  @keyframes dropdown {
+    0%{top: -200px;}
+    100%{top: 0px;}
+  }
+
   .headline-section > h2 {
+    position: relative;
+    animation-name: dropdown;
+    animation-duration: 2s;
     font-size: 72px;
     line-height: 82px;
     width: 566px;
@@ -804,6 +812,12 @@ footer > .socials a {
   [class*=cards] {
     width: 369px;
     height: 435px;
+  }
+
+  [class*=cards]:hover {
+    animation-duration: 250ms;
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
   }
 
   [class*=cards] button {
