@@ -192,7 +192,8 @@ header > nav {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px no-repeat;
+  background: #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px
+    no-repeat;
   width: 375px;
   height: 590px;
 }
@@ -660,7 +661,7 @@ footer > .socials a {
     width: 307px;
     height: 40px;
     gap: 32px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -676,12 +677,16 @@ footer > .socials a {
     grid-template-rows: 1fr;
     width: 100%;
     height: 798px;
-    background: #1c1a19 url('imgs/illustration-header.png') right top no-repeat;
+    background: #1c1a19 url("imgs/illustration-header.png") right top no-repeat;
   }
 
   @keyframes dropdown {
-    0%{top: -200px;}
-    100%{top: 0px;}
+    0% {
+      top: -200px;
+    }
+    100% {
+      top: 0px;
+    }
   }
 
   .headline-section > h2 {
@@ -700,7 +705,7 @@ footer > .socials a {
     grid-column: 2 / 3;
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -715,7 +720,7 @@ footer > .socials a {
     grid-column: 2 / 3;
     width: 566px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -748,9 +753,9 @@ footer > .socials a {
     padding: 130px 25px 23px;
     margin: 0 auto;
     grid-template-areas:
-      'recent-works recent-works recent-works'
-      'card-1 card-2 card-3'
-      'card-4 card-5 card-6';
+      "recent-works recent-works recent-works"
+      "card-1 card-2 card-3"
+      "card-4 card-5 card-6";
   }
 
   .recent-works {
@@ -764,7 +769,7 @@ footer > .socials a {
   .recent-works > h2 {
     width: 315px;
     height: 52px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -782,7 +787,7 @@ footer > .socials a {
   .img-placeholder {
     width: 684px;
     height: 448px;
-    background-image: url('imgs/img-placeholder-desk.png');
+    background-image: url("imgs/img-placeholder-desk.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -790,7 +795,7 @@ footer > .socials a {
   .multi-post h3 {
     width: 448px;
     height: 48px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -801,7 +806,7 @@ footer > .socials a {
   .multi-post > p {
     width: 448px;
     height: 140px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -809,18 +814,18 @@ footer > .socials a {
     color: #091e42;
   }
 
-  [class*=cards] {
+  [class*="cards"] {
     width: 369px;
     height: 435px;
   }
 
-  [class*=cards]:hover {
+  [class*="cards"]:hover {
     animation-duration: 250ms;
     transform: scale(1.05);
     transition: transform 250ms ease-in-out;
   }
 
-  [class*=cards] button {
+  [class*="cards"] button {
     width: 369px;
   }
 
@@ -828,13 +833,14 @@ footer > .socials a {
     width: 100%;
     height: 1195px;
     padding: 120px 142px 142px;
-    background: #1c1a19 url('imgs/illustration-about-me.svg') right 99px no-repeat;
+    background: #1c1a19 url("imgs/illustration-about-me.svg") right 99px
+      no-repeat;
   }
 
   .about-me > h2 {
     width: 566px;
     height: 78px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -845,7 +851,7 @@ footer > .socials a {
   .about-me > p {
     width: 566px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -881,7 +887,7 @@ footer > .socials a {
   .contact-section > p {
     width: 455px;
     height: 256px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
