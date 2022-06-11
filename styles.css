@@ -170,7 +170,7 @@ table {
   width: 101px;
   height: 44px;
   margin: 2px 198px 2px 24px;
- }
+}
 
 header > nav {
   width: 40px;
@@ -192,7 +192,8 @@ header > nav {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px
+  background:
+    #1c1a19 url("imgs/illustration-header-mobile.png") 228px 225px
     no-repeat;
   width: 375px;
   height: 590px;
@@ -644,7 +645,7 @@ footer > .socials a {
     line-height: 20px;
     transition: transform 2s 3s;
   }
-  
+
   #logo:hover {
     transform: rotate(180deg);
   }
@@ -689,8 +690,9 @@ footer > .socials a {
     0% {
       top: -200px;
     }
+
     100% {
-      top: 0px;
+      top: 0;
     }
   }
 
@@ -820,13 +822,6 @@ footer > .socials a {
     line-height: 28px;
     color: #091e42;
   }
-  
-  .multi-post ul li:hover {
-    background-color: #ff6b00;
-    transform: scale(1.05);
-    transition: transform 250ms ease-in-out;
-    animation-duration: 2s;
-  }
 
   [class*="cards"] {
     width: 369px;
@@ -847,7 +842,8 @@ footer > .socials a {
     width: 100%;
     height: 1195px;
     padding: 120px 142px 142px;
-    background: #1c1a19 url("imgs/illustration-about-me.svg") right 99px
+    background:
+      #1c1a19 url("imgs/illustration-about-me.svg") right 99px
       no-repeat;
   }
 
@@ -890,6 +886,13 @@ footer > .socials a {
   ul.inner {
     height: 272px;
     margin-bottom: 142px;
+  }
+
+  .multi-post ul li:hover {
+    background-color: #ff6b00;
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+    animation-duration: 2s;
   }
 
   .contact-section {
