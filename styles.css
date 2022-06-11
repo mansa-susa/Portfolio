@@ -170,7 +170,7 @@ table {
   width: 101px;
   height: 44px;
   margin: 2px 198px 2px 24px;
-}
+ }
 
 header > nav {
   width: 40px;
@@ -642,6 +642,11 @@ footer > .socials a {
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
+    transition: transform 2s 3s;
+  }
+  
+  #logo:hover {
+    transform: rotate(180deg);
   }
 
   header nav {
@@ -698,7 +703,7 @@ footer > .socials a {
     width: 566px;
     height: 160px;
     grid-column: 2 / 3;
-    margin: 192px 731px 24px 0;
+    margin: 192px 731px 0 0;
   }
 
   .headline-section > h3 {
@@ -713,7 +718,7 @@ footer > .socials a {
     display: flex;
     align-items: center;
     color: #fff;
-    margin: 0 731px 24px 0;
+    margin: 0 731px 12px 0;
   }
 
   .headline-section > p {
@@ -737,6 +742,8 @@ footer > .socials a {
     height: 200px;
     column-gap: 23px;
     margin: 0 0 0 0;
+    transition: transform 3s 2s;
+    transform: translate(36px, -350px);
   }
 
   .work-section {
@@ -812,6 +819,13 @@ footer > .socials a {
     font-size: 20px;
     line-height: 28px;
     color: #091e42;
+  }
+  
+  .multi-post ul li:hover {
+    background-color: #ff6b00;
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+    animation-duration: 2s;
   }
 
   [class*="cards"] {
