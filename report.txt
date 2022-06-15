@@ -19,3 +19,7 @@ The basic structure of the page - It is good
 NAMES AND LABELS - Form elements do not have associated labels
 lines
   https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L184-L195
+
+Links do not have a discernible name
+  https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L34-L38
+  https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L201-L205
