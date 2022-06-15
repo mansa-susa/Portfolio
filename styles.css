@@ -373,12 +373,12 @@ button {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #000;
   border: none;
 }
 
 button:enabled {
-  color: #fff;
+  color: #000;
   background-color: #f55800;
 }
 
