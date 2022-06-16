@@ -1,0 +1,25 @@
+Page titles - No issue found 
+Image text alternatives** (<img(<img alt="alt text">)- No issue found
+Text headings  - No issue found
+Color contrast - Background and foreground colors do not have a sufficient contrast ratio.
+ lines
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L60
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L73
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L85
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L97
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L109
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L121
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L133
+    https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L145
+Resize  - No issue found 
+Interaction  - No issue found 
+Moving content - No moving Content in our page 
+Multimedia - No multimedia  in our page 
+The basic structure of the page - It is good 
+NAMES AND LABELS - Form elements do not have associated labels
+lines
+  https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L184-L195
+
+Links do not have a discernible name
+  https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L34-L38
+  https://github.com/mansa-susa/Portfolio/blob/97731374b69304d7d59cff9760ba039b29eb9aed/index.html#L201-L205
