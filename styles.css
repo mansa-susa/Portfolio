@@ -141,6 +141,11 @@ table {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
@@ -182,10 +187,56 @@ header > nav {
 #hamburger {
   width: 18px;
   height: 12px;
+  cursor: pointer;
 }
 
 #menu {
   display: none;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 755px;
+  background-color: #3C3A39;
+  display: none;
+}
+
+.times-container {
+  margin-bottom: 34px;
+  padding: 0 0 0 335px;
+}
+
+#times {
+  width: 12px;
+  height: 12px;
+  color: #67798E;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFF5E1;
+}
+
+.dropdown-menu li {
+  height: 60px;
+  width: 327px;
+  border-bottom: 1px solid #6F6C6B;
+  margin: 24px 24px;
+}
+
+.dropdown-footer {
+  height: 54px;
+  background-color: #fff;
+  margin-top: 479px; 
+  padding: 30px 121px 0 120px;
 }
 
 .headline-section {
@@ -609,7 +660,7 @@ footer > .socials a {
   color: #505f79;
 }
 
-#shape {
+.shape {
   position: absolute;
   width: 134px;
   height: 5px;
