@@ -201,6 +201,12 @@ header > nav {
   height: 755px;
   background-color: #3C3A39;
   display: none;
+  position: absolute;
+  top: 0%;
+}
+
+.dropdown-container.active {
+  display: block;
 }
 
 .times-container {
