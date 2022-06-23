@@ -195,53 +195,47 @@ header > nav {
 }
 
 .dropdown-container {
-  display: flex;
-  flex-direction: column;
   width: 375px;
-  height: 755px;
-  background-color: #3C3A39;
+  height: 100vh;
+  background-color: #3c3a39;
   display: none;
   position: absolute;
   top: 0%;
 }
 
-.dropdown-container.active {
-  display: block;
-}
-
 .times-container {
   margin-bottom: 34px;
-  padding: 0 0 0 335px;
+  padding: 50px 0 0 335px;
 }
 
 #times {
-  width: 12px;
-  height: 12px;
-  color: #67798E;
+  width: 25px;
+  height: 25px;
+  color: #67798e;
   cursor: pointer;
 }
 
 .dropdown-menu {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 .dropdown-menu li {
   height: 60px;
   width: 327px;
-  border-bottom: 1px solid #6F6C6B;
+  border-bottom: 1px solid #6f6c6b;
   margin: 24px 24px;
 }
 
 .dropdown-footer {
-  height: 54px;
+  height: 70px;
   background-color: #fff;
-  margin-top: 479px; 
+  margin-top: 230px;
   padding: 30px 121px 0 120px;
 }
 
