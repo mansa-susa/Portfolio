@@ -141,6 +141,11 @@ table {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
@@ -182,10 +187,56 @@ header > nav {
 #hamburger {
   width: 18px;
   height: 12px;
+  cursor: pointer;
 }
 
 #menu {
   display: none;
+}
+
+.dropdown-container {
+  width: 375px;
+  height: 100vh;
+  background-color: #3c3a39;
+  display: none;
+  position: absolute;
+  top: 0%;
+}
+
+.times-container {
+  margin-bottom: 34px;
+  padding: 50px 0 0 335px;
+}
+
+#times {
+  width: 25px;
+  height: 25px;
+  color: #67798e;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff5e1;
+}
+
+.dropdown-menu li {
+  height: 60px;
+  width: 327px;
+  border-bottom: 1px solid #6f6c6b;
+  margin: 24px 24px;
+}
+
+.dropdown-footer {
+  height: 70px;
+  background-color: #fff;
+  margin-top: 230px;
+  padding: 30px 121px 0 120px;
 }
 
 .headline-section {
@@ -609,7 +660,7 @@ footer > .socials a {
   color: #505f79;
 }
 
-#shape {
+.shape {
   position: absolute;
   width: 134px;
   height: 5px;
