@@ -12,7 +12,7 @@ times.addEventListener('click', () => {
   dropdown.style.display = 'none';
 });
 
-for (i = 0; i < menuItem.length; ++i) {
+for (i = 0; i < menuItem.length; i++) {
   menuItem[i].addEventListener('click', () => {
     dropdown.style.display = 'none';
   });
