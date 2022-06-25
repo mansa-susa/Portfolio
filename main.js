@@ -7,7 +7,6 @@ const seeProject = document.querySelectorAll('.project-button');
 const popup = document.querySelector('.popup-window');
 const popupTimes = document.getElementById('popup-times');
 const wrapper = document.querySelector('.wrapper');
-const popupHeading = document.getElementById("popup-heading");
 
 hamburger.addEventListener('click', () => {
   dropdown.style.display = 'block';
